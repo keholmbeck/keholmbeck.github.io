@@ -138,7 +138,7 @@
 	}
 
 		a:hover {
-			border-bottom-color: transparent;
+			/* border-bottom-color: transparent;*/
 		}
 
 	strong, b {
@@ -1592,3 +1592,16 @@
 		body.is-loading #footer {
 			opacity: 0;
 		}
+
+
+        
+/* KH additions */
+
+a {
+    color: #b3ffb3;
+}
+
+a:focus, a:hover {
+    color: #66ff66;
+    text-decoration: none;
+}
